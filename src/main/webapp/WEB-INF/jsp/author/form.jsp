@@ -1,13 +1,18 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<c:set var="formAction" value="/authors"/>
+<c:if test="${not empty author.id}">
+    <c:set var="formAction" value="/authors/update/${author.id}"/>
+</c:if>
+
 <div class="row mb-3">
     <div class="col">
         <h2>${author.id == null ? 'Add New Author' : 'Edit Author'}</h2>
     </div>
 </div>
 
-<form action="${author.id == null ? '/authors' : '/authors/update/' + author.id}" method="post" class="needs-validation" novalidate>
+<form action="${formAction}" method="post" class="needs-validation" novalidate>
     <div class="mb-3">
         <label for="name" class="form-label">Name</label>
         <input type="text" class="form-control" id="name" name="name" value="${author.name}" required>
