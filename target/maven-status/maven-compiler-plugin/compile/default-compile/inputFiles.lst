@@ -1,0 +1,10 @@
+/Users/pranoy/Desktop/building-database-applications-assignment/src/main/java/com/example/demo/DemoApplication.java
+/Users/pranoy/Desktop/building-database-applications-assignment/src/main/java/com/example/demo/config/DataInitializer.java
+/Users/pranoy/Desktop/building-database-applications-assignment/src/main/java/com/example/demo/controller/AuthorController.java
+/Users/pranoy/Desktop/building-database-applications-assignment/src/main/java/com/example/demo/controller/BookController.java
+/Users/pranoy/Desktop/building-database-applications-assignment/src/main/java/com/example/demo/entity/Author.java
+/Users/pranoy/Desktop/building-database-applications-assignment/src/main/java/com/example/demo/entity/Book.java
+/Users/pranoy/Desktop/building-database-applications-assignment/src/main/java/com/example/demo/repository/AuthorRepository.java
+/Users/pranoy/Desktop/building-database-applications-assignment/src/main/java/com/example/demo/repository/BookRepository.java
+/Users/pranoy/Desktop/building-database-applications-assignment/src/main/java/com/example/demo/service/AuthorService.java
+/Users/pranoy/Desktop/building-database-applications-assignment/src/main/java/com/example/demo/service/BookService.java
